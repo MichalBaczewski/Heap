@@ -6,6 +6,7 @@ public class HeapCom {
 
     private int[] heap;
     private int lastIndex;
+    private int index;
 
     public HeapCom(int size) {
         this.heap = new int[size];
